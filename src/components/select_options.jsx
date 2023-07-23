@@ -12,6 +12,7 @@ export default function Select({options}) {
             <option value={option.label}>{option.label}</option>
           ))}
         </select>
+        
       </div>
       );
               
