@@ -3,8 +3,8 @@
 
   
 
-const Select = ({options})=>{
-
+export default function Select({options}) {
+    
     return (
         <div>
         <select>
@@ -15,9 +15,11 @@ const Select = ({options})=>{
       </div>
       );
               
+              
+} 
 
     
-}
 
-export default  Select 
+
+
 
