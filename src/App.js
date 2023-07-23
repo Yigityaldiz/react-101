@@ -5,15 +5,12 @@ import React from "react";
 const options = [
   {
     label: "Ferrari",
-
   },
   {
     label: "Bugatti",
-
   },
   {
     label: "Mercedes",
-
   },
 
 ];
