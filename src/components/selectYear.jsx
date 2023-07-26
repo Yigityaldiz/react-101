@@ -1,11 +1,11 @@
-export default function SelectYear({options}) {
+export default function SelectYear({option}) {
     
     return (
         <div>
         <select>
 
           {
-            options.map((option) => (
+            option.map((option) => (
                 <option value={option.year}>{option.year}</option>))
     
 
